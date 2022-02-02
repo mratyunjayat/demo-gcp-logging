@@ -18,13 +18,4 @@ public class ApplicationResources {
 		return new ResponseEntity<>("SUCCESS", HttpStatus.OK);
 	}
 	
-	@RequestMapping("")
-	public String home() {
-		return ("<h1>WELcome</h1>");
-	}
-	
-	@RequestMapping("/user")
-	public String user() {
-		return ("<h1>WElcome User</h1>");
-	}
 }
